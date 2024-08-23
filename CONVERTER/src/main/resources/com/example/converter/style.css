@@ -1,0 +1,27 @@
+.convert_container {
+    -fx-background-color: Lavender;
+}
+
+.convert_container Button {
+    -fx-effect: dropshadow(three-pass-box, #000000, 3, 0, 0, 3);
+    -fx-background-color: #E6E6FA;
+    -fx-font-size: 2em;
+}
+
+.convert_container Button:hover {
+    -fx-cursor: hand;
+}
+
+.convert_container TextField {
+    -fx-font-size: 2em;
+}
+
+.convert_container ChoiceBox {
+    -fx-font-size: 2em;
+}
+
+.convert_container Label {
+    -fx-font-size: 2em;
+    -fx-padding: 5px;
+    -fx-border-radius: 5px;
+}

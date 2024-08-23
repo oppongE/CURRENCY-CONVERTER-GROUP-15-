@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="657.0" prefWidth="502.0" style="-fx-background-color: lavender;" styleClass="convert_container" stylesheets="@style.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.converter.database.MainPageController">
+   <children>
+      <Label layoutX="84.0" layoutY="27.0" text="CURRENCY CONVERTER" underline="true">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="f_currency" layoutX="9.0" layoutY="153.0" prefHeight="45.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="s_currency" layoutX="9.0" layoutY="261.0" prefHeight="45.0" prefWidth="150.0" />
+      <Label layoutX="14.0" layoutY="220.0" text="SELECT CURRENCY TO BE CONVERTED TO">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="94.0" prefHeight="34.0" prefWidth="300.0" text="SELECT CURRENCY TO BE CONVERTED">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="choiceT1" layoutX="197.0" layoutY="153.0" prefHeight="45.0" prefWidth="275.0" />
+      <Button fx:id="NUMBER7" layoutX="6.0" layoutY="402.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="114.0" text="7">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="NUMBER4" layoutX="9.0" layoutY="466.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="114.0" text="4">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="NUMBER1" layoutX="9.0" layoutY="529.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="114.0" text="1">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="NUMBER8" layoutX="179.0" layoutY="397.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="114.0" text="8">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="NUMBER5" layoutX="179.0" layoutY="461.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="114.0" text="5">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="NUMBER2" layoutX="179.0" layoutY="525.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="114.0" text="2">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="NUMBER3" layoutX="358.0" layoutY="525.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="114.0" text="3">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="NUMBER9" layoutX="358.0" layoutY="397.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="114.0" text="9">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="NUMBER6" layoutX="358.0" layoutY="461.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="114.0" text="6">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="clear_btn" layoutX="9.0" layoutY="334.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="114.0" text="Clear">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="del_btn" layoutX="180.0" layoutY="334.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="114.0" text="Del">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="NUMBER0" layoutX="9.0" layoutY="594.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="283.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="NUMBER00" layoutX="358.0" layoutY="592.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="114.0" text=".">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <TextField fx:id="DisplayLabel" layoutX="197.0" layoutY="258.0" prefHeight="51.0" prefWidth="275.0" />
+   </children>
+</Pane>
